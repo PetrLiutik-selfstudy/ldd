@@ -11,7 +11,7 @@ static int __init insert_hello(void)
 
 static void __exit remove_hello(void)
 {
-  printk(KERN_DEBUG "Bay world!!!\n");
+  printk(KERN_DEBUG "Bye world!!!\n");
 }
 
 module_init(insert_hello);
